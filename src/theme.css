@@ -1,0 +1,12 @@
+/* src/theme.css */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  .header.dark-mode, .sidebar.dark-mode, .footer.dark-mode {
+    background-color: #1e1e1e;
+  }
+  
+  /* Add other dark mode styles as needed */
+  

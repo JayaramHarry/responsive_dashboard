@@ -1,0 +1,26 @@
+{
+    "dashboard-data": {
+      "lineChartData": [
+        { "name": "Jan", "value": 4000 },
+        { "name": "Feb", "value": 3000 },
+        { "name": "Mar", "value": 2000 }
+      ],
+      "barChartData": [
+        { "name": "A", "value": 2400 },
+        { "name": "B", "value": 1398 },
+        { "name": "C", "value": 9800 }
+      ],
+      "pieChartData": [
+        { "name": "Group A", "value": 400 },
+        { "name": "Group B", "value": 300 },
+        { "name": "Group C", "value": 300 },
+        { "name": "Group D", "value": 200 }
+      ],
+      "activities": [
+        "Activity 1",
+        "Activity 2",
+        "Activity 3"
+      ]
+    }
+  }
+  
