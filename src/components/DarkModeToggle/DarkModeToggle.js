@@ -1,4 +1,4 @@
-// src/components/DarkModeToggle.js
+
 import React, { useState, useEffect } from 'react';
 import './DarkModeToggle.css'; // Add your styles here
 
@@ -21,9 +21,12 @@ const DarkModeToggle = () => {
   };
 
   return (
-    <button onClick={toggleDarkMode}>
-      {darkMode ? 'Light Mode' : 'Dark Mode'}
-    </button>
+    <div className="dark-mode-toggle-container">
+      <label className="switch">
+        <input type="checkbox" checked={darkMode} onChange={toggleDarkMode} />
+        <span className="slider"></span>
+      </label>
+    </div>
   );
 };
 
